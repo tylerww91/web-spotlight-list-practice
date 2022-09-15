@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Lists of Things</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Lists of Things</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>Lists of Things</h1>
+        </header>
 
-</head>
+        <main>
+            <section>
+                <h2>Candies</h2>
+                <ul id="candy-list">
+                    <li class="candy-item">
+                        <h2>Twix</h2>
+                        <p>chocolate carmel candy bar</p>
+                    </li>
+                </ul>
+            </section>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Lists of Things</h1>
-    </header>
+            <section>
+                <h2>List 2</h2>
+                <ul id="list-2"></ul>
+            </section>
 
-    <main>
-        <section>
-            <h2>List 1</h2>
-            <ul id="list-1"></ul>
-        </section>
+            <section>
+                <h2>List 3</h2>
+                <ul id="list-3"></ul>
+            </section>
 
-        <section>
-            <h2>List 2</h2>
-            <ul id="list-2"></ul>
-        </section>
-
-        <section>
-            <h2>List 3</h2>
-            <ul id="list-3"></ul>
-        </section>
-
-        <section>
-            <h2>List 4</h2>
-            <ul id="list-4"></ul>
-        </section>
-
-
-
-    </main>
-
-</body>
-
+            <section>
+                <h2>List 4</h2>
+                <ul id="list-4"></ul>
+            </section>
+        </main>
+    </body>
 </html>
